@@ -50,9 +50,11 @@ In summary, I took the following steps:
   ### Modeling
   Using the above models mentioned we come to the conclusion that GradientBoostingClassifier is the best model to use as the accuracy test
 ![image](https://github.com/TULINYE/Churns_Telcom/assets/133999173/a44acfa3-abd6-4102-98dd-f93d38d1c856)
-
-
-
+### EVALUATION
+GradientBoostingClassifier is my best model so far. The combination of oversampling of the minority and undersampling of majority has lead to better results.The highest priority for my model is to have a good recall score. This model had the highest recall score which is why I'm taking this as my final model. The GradientBoostingClassifier model has performed well in predicting customer churn. The precision score for class 1 (churn) is 0.88, which means that when the model predicts a customer will churn, it is correct 88% of the time. The recall score for class 1 is 0.82, which means that the model correctly identifies 82% of all customers who actually churn. The F1-score for class 1 is 0.85, which is a harmonic mean of precision and recall and indicates overall performance of the model for class 1. Additionally, the macro-average F1-score is 0.91, which means that the model performs well in both classes. The accuracy of the model on the test set is 0.96, which means that the model correctly predicts 96% of all customers' churn status
+![image](https://github.com/TULINYE/Churns_Telcom/assets/133999173/8985a8f9-1e62-4175-bfa4-c47a0438e808)
+![image](https://github.com/TULINYE/Churns_Telcom/assets/133999173/77c9f5df-b6c3-4096-a146-a0f6e4a98901)
+According to the feature importance plot, the top three factors influencing the prediction of customer churn are total intl minutes, total night charge and total night calls. This implies that customer with total intl minutes and total night charge are more inclined to churn. Additionally, customers who make night calls are also at a greater risk of churning.
 
 
 
