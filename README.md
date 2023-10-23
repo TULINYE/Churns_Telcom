@@ -33,8 +33,21 @@ The column/variable names are:
 * total intl charge
 * customer service calls
 * churn
+Regarding my target variable (churn), we are dealing with class imbalance. 85% of the data set contains information about staying customers and only 15% churn.
+![image](https://github.com/TULINYE/Churns_Telcom/assets/133999173/0bd8f3b0-9973-40b9-b2e4-b7bd2c3c5e1f)
+### Approach
 
-
+This task is a classification problem because my target variable is a categorical variable. It is either yes or nor for a customer that churns.
+I used a machine learning approach to solve the classification task. Machine learning algorithms are designed to automatically identify patterns and relationships within data, allowing them to detect complex relationships that may not be immediately apparent through manual analysis. Also, machine learning algorithms can improve over time as they are trained on more data, providing an ongoing opportunity to refine and improve the accuracy of the classification model. Finally, they are able to handle large amounts of data efficiently and quickly, making them an ideal choice for tasks involving large datasets. 
+I am using an iterative approach to try to find the best model for my predictions.
+In summary, I took the following steps:
+- Loading and combining data
+- Check for data completeness and overall structure
+- Inspect all variables visually to determine relevance for future model
+- Prepare data for modeling (one hot encoding, scaling, train - test split, resampling  )
+- Start with a RandomForestClassifier, GradientBoostingClassifier, K Neighbors Classifier and logistic Regression
+- Evaluate which model works best and determine the most important features to be able to give practical recommendations.
+- 
 
 
 
