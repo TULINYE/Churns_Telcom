@@ -45,9 +45,11 @@ In summary, I took the following steps:
 - Check for data completeness and overall structure
 - Inspect all variables visually to determine relevance for future model
 - Prepare data for modeling (one hot encoding, scaling, train - test split, resampling  )
-- Start with a RandomForestClassifier, GradientBoostingClassifier, K Neighbors Classifier and logistic Regression
+- Start with a RandomForestClassifier, GradientBoostingClassifier, K Neighbors Classifier and Logistic Regression
 - Evaluate which model works best and determine the most important features to be able to give practical recommendations.
-- 
+  ### Modeling
+  Using the above models mentioned we come to the conclusion that GradientBoostingClassifier is the best model to use as the accuracy test
+![image](https://github.com/TULINYE/Churns_Telcom/assets/133999173/a44acfa3-abd6-4102-98dd-f93d38d1c856)
 
 
 
