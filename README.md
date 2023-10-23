@@ -59,7 +59,6 @@ According to the feature importance plot, the top three factors influencing the 
 With the model, I have identified several factors that are important in determining the churn of the customer. While the model is not perfect, it will mostly catch those customers who are likely to leave. With this information, the telephone company can take steps to reduce churn and retain customers. They can target customer engagement by utilizing the "customer service calls" variable to identify customers who frequently contact customer service which may help improve their satisfaction and reduce the likelihood of churn, Customized retention Offerssuch as offering discounted international plans to customers who make frequent international calls and night calls, Offer quality of service improvements like network performance and call quality in areas where customers are most affected and Implement post-interaction customer surveys or feedback mechanisms, especially for customers with high "customer service calls" or those who have recently contacted customer support
 ### Next Steps
 *Explore Various Algorithms: Investigate alternative machine learning algorithms to improve the precision of churn prediction.
-
 *Expand Data Gathering: Collect supplementary data to enhance the precision of churn prediction models.
 *Continuous Model Evaluation and Enhancement: Consistently assess model performance, adjust parameters, and sustain models to guarantee their precision and efficacy in forecasting customer churn.
 
